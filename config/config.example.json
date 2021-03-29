@@ -1,0 +1,15 @@
+{
+	"port": 3000,
+	"email": {
+		"host": "smtp.yandex.ru",
+		"port": 465,		// true for 465, false for other ports // todo: remove comments
+		"secure": true,
+		"auth": {
+			"user": "exampleuser@yandex.ru",
+			"pass": "needsecuredpasshere"
+		},
+		"from": "'User Name' <exampleuser@yandex.ru>",
+		"to": "whereToSendEmailsFromSite@gmail.com",
+		"subject": "Hello"
+	}
+}

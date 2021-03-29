@@ -1,0 +1,7 @@
+.idea/
+.git/
+node_modules/
+public/
+
+config/config.json
+yarn-error.log
